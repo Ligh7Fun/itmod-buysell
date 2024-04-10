@@ -6,70 +6,78 @@
 		<title>BUYSELL</title>
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/media.css" />
 	</head>
 	<body>
-		<div class="box">
-			<header class="header">
-				<nav>
-					<div class="container">
-						<ul class="header-menu">
-							<li><a class="header-link" href="#about">О приложении</a></li>
-							<li><a class="header-link" href="#clients">Наши клиенты</a></li>
-							<li>
-								<a class="header-link" href="#howtowork"
-									>Как работать с приложением</a
-								>
-							</li>
-							<li><a class="header-link" href="#">Контакты</a></li>
-							<li>
-								<a class="header-button" href="#hero">Скачать</a>
-							</li>
-						</ul>
+		<header class="header">
+			<nav>
+				<div class="container">
+					<div class="burger-menu">
+						<img
+							src="./img/menu.svg"
+							alt="Menu"
+							class="menu-icon"
+							onclick="toggleMenu()"
+						/>
 					</div>
-				</nav>
-			</header>
-			<main>
-				<section class="hero" id="hero">
-					<div class="container">
-						<div class="hero-wrapper">
-							<div class="hero-image">
-								<img src="./img/image1.png" alt="BUYSELL" />
+					<ul class="header-menu">
+						<li><a class="header-link" href="#about">О приложении</a></li>
+						<li><a class="header-link" href="#clients">Наши клиенты</a></li>
+						<li>
+							<a class="header-link" href="#howtowork"
+								>Как работать с приложением</a
+							>
+						</li>
+						<li><a class="header-link" href="#">Контакты</a></li>
+						<li>
+							<a class="header-button" href="#hero">Скачать</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="hero" id="hero">
+				<div class="container">
+					<div class="hero-wrapper">
+						<div class="hero-image">
+							<img src="./img/image1.png" alt="BUYSELL" />
+						</div>
+						<div class="hero-info">
+							<div class="hero-title">
+								<span class="first-word big">BUY</span
+								><span class="second-word big">SELL</span>
+								<p class="hero-title-sub">
+									приложение для просмотра цен на Б/У товары
+								</p>
 							</div>
-							<div class="hero-info">
-								<div class="hero-title">
-									<span class="first-word big">BUY</span
-									><span class="second-word big">SELL</span>
-									<p class="hero-title-sub">
-										приложение для просмотра цен на Б/У товары
-									</p>
-								</div>
-								<div class="hero-text">
-									<p>
-										При поддержке
-										<span class="text-second-word"
-											>Фонда содействия инновациям в рамках федерального проекта
-											«Платформа университетского технологического
-											предпринимательства»</span
-										>
-									</p>
-								</div>
-								<div class="hero-button">
-									<a href="#">Скачать</a>
-								</div>
+							<div class="hero-text">
+								<p>
+									При поддержке
+									<span class="text-second-word"
+										>Фонда содействия инновациям в рамках федерального проекта
+										«Платформа университетского технологического
+										предпринимательства»</span
+									>
+								</p>
+							</div>
+							<div class="hero-button">
+								<a href="#">Скачать</a>
 							</div>
 						</div>
-						<div class="hero-scroll">
-							<a href="#about">
-								<img
-									class="hero-scroll-down"
-									src="./img/scroll_down.svg"
-									alt="scrolldown"
-							/></a>
-						</div>
 					</div>
-				</section>
+					<!-- <div class="hero-scroll">
+						<a href="#about">
+							<img
+								class="hero-scroll-down"
+								src="./img/scroll_down.svg"
+								alt="scrolldown"
+						/></a>
+					</div> -->
+				</div>
+			</section>
 
-				<section class="about" id="about">
+			<!-- <section class="about" id="about">
 					<div class="container">
 						<div class="about-wrapper">
 							<div class="about-info">
@@ -163,23 +171,23 @@
 							</div>
 						</div>
 					</div>
-				</section>
-			</main>
-			<footer class="footer">
-				<div class="container">
-					<div class="requisites">
-						<div class="requisites-img">
-							<img src="./img/footer-logo.png" alt="requisites" />
-						</div>
-
-						<p>ООО "ВЫКУПИ"</p>
-						<p>ИНН: 1650428155</p>
-						<p>ОГРН: 1231600050054</p>
-						<p>Телефон: +7 (919) 686-50-21</p>
+				</section> -->
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="requisites">
+					<div class="requisites-img">
+						<img src="./img/footer-logo.png" alt="requisites" />
 					</div>
+
+					<p>ООО "ВЫКУПИ"</p>
+					<p>ИНН: 1650428155</p>
+					<p>ОГРН: 1231600050054</p>
+					<p>Телефон: +7 (919) 686-50-21</p>
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
+
 		<script src="./js/script.js"></script>
 	</body>
 </html>

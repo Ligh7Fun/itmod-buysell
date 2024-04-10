@@ -30,3 +30,12 @@ window.addEventListener('scroll', function () {
 
 	image.style.opacity = opacity.toString()
 })
+
+function toggleMenu() {
+	let x = document.querySelector('.header-menu')
+	if (x.style.display === 'block') {
+		x.style.display = 'none'
+	} else {
+		x.style.display = 'block'
+	}
+}

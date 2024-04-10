@@ -3,7 +3,8 @@
 :root {
 	--font-family: 'Inter', sans-serif;
 	--second-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	--tablet: 1220px;
+	--mobile: 960px;
 }
 
 * {
@@ -11,8 +12,8 @@
 }
 
 html {
-	overflow-y: scroll;
-	scrollbar-width: none;
+	/* overflow-y: scroll;
+	scrollbar-width: none; */
 	scroll-behavior: smooth;
 }
 
@@ -24,14 +25,9 @@ body {
 	background-color: #fff;
 	font-family: var(--font-family);
 }
-.box {
-	/* height: 100vh;
-	overflow-y: auto;
-	scroll-snap-type: y mandatory; */
-}
+
 .container {
 	max-width: 1920px;
-
 	margin: 0 auto;
 }
 
@@ -48,6 +44,7 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	margin-right: 112px;
 }
 
 .header-menu a {
@@ -57,7 +54,7 @@ body {
 	line-height: 82px;
 	text-decoration: none;
 	color: #fff;
-	margin: 0 34px 0 0;
+	gap: 34px;
 	font-size: 1.25rem;
 	position: relative;
 }
@@ -84,6 +81,7 @@ body {
 }
 
 .header-button {
+	display: inline-flexbox;
 	border: #fff 1px solid;
 	border-radius: 20px;
 	padding: 8px 51px;
@@ -96,9 +94,20 @@ body {
 	transition: all 0.5s ease;
 }
 
+.burger-menu {
+	display: none;
+}
+
+.menu-icon {
+	width: 30px; /* Установите размер иконки по вашему усмотрению */
+	height: auto;
+	cursor: pointer;
+}
+
 .hero {
-	height: calc(100vh - 82px);
-	/* scroll-snap-align: start; */
+	margin-top: 82px;
+	padding-top: 163px;
+	/* background-color: lightpink; */
 }
 
 .hero-wrapper {
@@ -106,7 +115,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-right: 55px;
-	margin-top: 82px;
+	/* margin-top: 82px; */
 }
 
 .hero-title {
@@ -134,7 +143,7 @@ body {
 }
 
 .hero-info {
-	margin: -20px 0 0 -70px;
+	/* margin: -20px 0 0 -70px; */
 }
 .hero-title-sub {
 	font-family: var(--second-family);

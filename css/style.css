@@ -12,8 +12,6 @@
 }
 
 html {
-	/* overflow-y: scroll;
-	scrollbar-width: none; */
 	scroll-behavior: smooth;
 }
 
@@ -208,7 +206,6 @@ body {
 /* about */
 
 .about {
-	/* background-color: lightpink; */
 }
 
 .about-wrapper {
@@ -339,7 +336,6 @@ body {
 
 /* clients */
 .howtowork {
-	background-color: lightpink;
 }
 .howtowork-wrapper {
 	display: flex;

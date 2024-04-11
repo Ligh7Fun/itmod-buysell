@@ -12,14 +12,13 @@
 		<header class="header">
 			<nav>
 				<div class="container">
-					<div class="burger-menu">
-						<img
-							src="./img/menu.svg"
-							alt="Menu"
-							class="menu-icon"
-							onclick="toggleMenu()"
-						/>
-					</div>
+					<!-- Добавляем чекбокс -->
+					<input type="checkbox" id="burger-toggle" class="burger-toggle" />
+
+					<!-- Используем лейбл вместо img для бургер-иконки -->
+					<label for="burger-toggle" class="burger-menu">
+						<img src="./img/menu.svg" alt="Menu" class="menu-icon" />
+					</label>
 					<ul class="header-menu">
 						<li><a class="header-link" href="#about">О приложении</a></li>
 						<li><a class="header-link" href="#clients">Наши клиенты</a></li>
@@ -48,7 +47,7 @@
 								<span class="first-word big">BUY</span
 								><span class="second-word big">SELL</span>
 								<p class="hero-title-sub">
-									приложение для просмотра цен на Б/У товары
+									Приложение для просмотра цен на Б/У товары
 								</p>
 							</div>
 							<div class="hero-text">

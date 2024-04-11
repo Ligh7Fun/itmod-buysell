@@ -85,7 +85,7 @@
 		margin: 0;
 	}
 	.hero {
-		padding-top: 33px;
+		padding-top: 10px;
 	}
 	.hero-image {
 		margin-bottom: 37px;
@@ -279,7 +279,7 @@
 
 @media (max-width: 670px) {
 	.hero-image img {
-		max-width: 80%;
+		max-width: 70%;
 		width: 80%;
 		height: auto;
 		min-width: 320px;

@@ -12,14 +12,13 @@
 		<header class="header">
 			<nav>
 				<div class="container">
-					<div class="burger-menu">
-						<img
-							src="./img/menu.svg"
-							alt="Menu"
-							class="menu-icon"
-							onclick="toggleMenu()"
-						/>
-					</div>
+					<!-- Добавляем чекбокс -->
+					<input type="checkbox" id="burger-toggle" class="burger-toggle" />
+
+					<!-- Используем лейбл вместо img для бургер-иконки -->
+					<label for="burger-toggle" class="burger-menu">
+						<img src="./img/menu.svg" alt="Menu" class="menu-icon" />
+					</label>
 					<ul class="header-menu">
 						<li><a class="header-link" href="#about">О приложении</a></li>
 						<li><a class="header-link" href="#clients">Наши клиенты</a></li>
@@ -48,7 +47,7 @@
 								<span class="first-word big">BUY</span
 								><span class="second-word big">SELL</span>
 								<p class="hero-title-sub">
-									приложение для просмотра цен на Б/У товары
+									Приложение для просмотра цен на Б/У товары
 								</p>
 							</div>
 							<div class="hero-text">
@@ -66,40 +65,40 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="hero-scroll">
+					<div class="hero-scroll">
 						<a href="#about">
 							<img
 								class="hero-scroll-down"
 								src="./img/scroll_down.svg"
 								alt="scrolldown"
 						/></a>
-					</div> -->
+					</div>
 				</div>
 			</section>
 
-			<!-- <section class="about" id="about">
-					<div class="container">
-						<div class="about-wrapper">
-							<div class="about-info">
-								<div class="about-label">О BUYSELL</div>
-								<p class="about-text">
-									<span class="first-word small">BUY</span
-									><span class="second-word small">SELL</span>
-									представляет собой мобильное приложение поиска цен на Б/У
-									товаров на досках объявления. Автоматизированный сбор данных
-									позволяет пользователю сэкономить время, а также иметь под
-									рукой только актуальную информацию
-								</p>
-							</div>
-							<div class="about-image">
-								<img src="./img/phone1.png" alt="phone1" />
-								<img src="./img/phone2.png" alt="phone2" />
-							</div>
+			<section class="about" id="about">
+				<div class="container">
+					<div class="about-wrapper">
+						<div class="about-info">
+							<div class="about-label">О BUYSELL</div>
+							<p class="about-text">
+								<span class="first-word small">BUY</span
+								><span class="second-word small">SELL</span>
+								представляет собой мобильное приложение поиска цен на Б/У
+								товаров на досках объявления. Автоматизированный сбор данных
+								позволяет пользователю сэкономить время, а также иметь под рукой
+								только актуальную информацию
+							</p>
+						</div>
+						<div class="about-image">
+							<img src="./img/phone1.png" alt="phone1" />
+							<img src="./img/phone2.png" alt="phone2" />
 						</div>
 					</div>
-				</section>
+				</div>
+			</section>
 
-				<section class="clients" id="clients">
+			<!-- <section class="clients" id="clients">
 					<div class="container">
 						<div class="clients-wrapper">
 							<div class="clients-label-wrap">
@@ -123,8 +122,9 @@
 							</div>
 						</div>
 					</div>
-				</section>
-				<section class="howtowork" id="howtowork">
+				</section> -->
+
+			<!-- <section class="howtowork" id="howtowork">
 					<div class="container">
 						<div class="howtowork-wrapper">
 							<div class="howtowork-label-wrap">

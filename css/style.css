@@ -31,6 +31,8 @@ body {
 	margin: 0 auto;
 }
 
+/* header */
+
 .header {
 	background-color: #058;
 	position: fixed;
@@ -99,15 +101,23 @@ body {
 }
 
 .menu-icon {
-	width: 30px; /* Установите размер иконки по вашему усмотрению */
+	width: 30px;
 	height: auto;
 	cursor: pointer;
 }
 
+.burger-toggle {
+	display: none;
+}
+
+/* header */
+
+/* hero */
+
 .hero {
 	margin-top: 82px;
 	padding-top: 163px;
-	/* background-color: lightpink; */
+	margin-bottom: 68px;
 }
 
 .hero-wrapper {
@@ -115,7 +125,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-right: 55px;
-	/* margin-top: 82px; */
 }
 
 .hero-title {
@@ -139,12 +148,9 @@ body {
 }
 
 .small {
-	font-size: 50px;
+	font-size: 3.13rem;
 }
 
-.hero-info {
-	/* margin: -20px 0 0 -70px; */
-}
 .hero-title-sub {
 	font-family: var(--second-family);
 	font-weight: 400;
@@ -164,53 +170,63 @@ body {
 	color: #058;
 }
 
-.hero-button a {
+.hero-button {
 	width: 390px;
 	height: 93px;
 	border-radius: 30px;
 	background: linear-gradient(90deg, #e3241c 0%, #058 81%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-button a {
 	font-family: var(--font-family);
 	font-weight: 400;
 	font-size: 2rem;
 	color: #fff;
 	text-decoration: none;
+}
+
+.hero-scroll {
+	margin: 0 auto;
+	margin-top: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.hero-scroll {
-	position: relative;
-}
 .hero-scroll-down {
-	position: absolute;
-	bottom: calc(100vh / 100);
-	left: 50%;
 	transform: translateX(-50%);
 	animation: moveUpAndDown 3s ease-in-out infinite;
 	transition: opacity 0.3s ease-in-out;
 }
 
+/* hero */
+
+/* about */
+
 .about {
-	height: calc(100vh - 82px);
-	scroll-snap-align: start;
-	/* padding-top: 82px; */
+	background-color: lightpink;
 }
 
 .about-wrapper {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: flex-start;
-	margin-right: 55px;
+	gap: 55px;
+	padding: 0 20px 0 20px;
+	padding-bottom: 68px;
 }
 
 .about-info {
-	margin-right: 79px;
-	padding-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .about-label {
 	width: 494px;
+	min-width: 360px;
 	height: 132px;
 	border-radius: 30px;
 	background: linear-gradient(90deg, #e3241c 0%, #058 81%);
@@ -230,15 +246,16 @@ body {
 	font-weight: 400;
 	font-size: 1.88rem;
 	color: #000;
+	min-width: 490px;
 	width: 764px;
 	text-align: justify;
 }
 
 .about-image {
-	/* height: 717px; */
-	margin-top: 50px;
-	position: relative;
+	display: flex;
 }
+
+/* about */
 
 .clients {
 	height: calc(100vh - 82px);

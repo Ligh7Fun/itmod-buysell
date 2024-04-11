@@ -20,22 +20,13 @@ window.addEventListener('scroll', function () {
 	let scrollValue = window.scrollY
 	let opacity = 1
 
-	if (scrollValue > 10 && scrollValue <= 200) {
-		opacity = 1 - (scrollValue - 10) / 190
+	if (scrollValue > 10 && scrollValue <= 300) {
+		opacity = 1 - (scrollValue - 10) / 290
 	}
 
-	if (scrollValue > 200) {
+	if (scrollValue > 300) {
 		opacity = 0
 	}
 
 	image.style.opacity = opacity.toString()
 })
-
-function toggleMenu() {
-	let x = document.querySelector('.header-menu')
-	if (x.style.display === 'block') {
-		x.style.display = 'none'
-	} else {
-		x.style.display = 'block'
-	}
-}

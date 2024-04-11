@@ -4,6 +4,9 @@
 		width: 100%;
 		min-width: 490px;
 	}
+	.about-wrapper {
+		gap: 40px;
+	}
 	/* about */
 }
 
@@ -12,6 +15,7 @@
 	.about-wrapper {
 		flex-wrap: wrap;
 		align-items: center;
+		gap: 10px;
 	}
 	.about-info {
 		align-items: center;

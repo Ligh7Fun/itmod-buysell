@@ -30,3 +30,9 @@ window.addEventListener('scroll', function () {
 
 	image.style.opacity = opacity.toString()
 })
+
+document.querySelectorAll('.header-link').forEach(link => {
+	link.addEventListener('click', () => {
+		document.querySelector('.burger-toggle').checked = false
+	})
+})

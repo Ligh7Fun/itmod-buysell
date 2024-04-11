@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Montserrat:wght@400;700&display=swap');
 
 :root {
 	--font-family: 'Inter', sans-serif;
@@ -12,8 +12,6 @@
 }
 
 html {
-	/* overflow-y: scroll;
-	scrollbar-width: none; */
 	scroll-behavior: smooth;
 }
 
@@ -116,7 +114,7 @@ body {
 
 .hero {
 	margin-top: 82px;
-	padding-top: 163px;
+	padding-top: 13px;
 	margin-bottom: 68px;
 }
 
@@ -208,7 +206,6 @@ body {
 /* about */
 
 .about {
-	/* background-color: lightpink; */
 }
 
 .about-wrapper {
@@ -303,12 +300,14 @@ body {
 	font-size: 2.25rem;
 }
 .clients-title {
-	font-weight: 700;
+	font-family: var(--font-family);
+	font-weight: 500;
 	margin-bottom: 60px;
 }
 .clients-text {
 	font-weight: 400;
 	margin-bottom: 146px;
+	font-family: var(--font-family);
 }
 
 .clients-ul {
@@ -339,7 +338,6 @@ body {
 
 /* clients */
 .howtowork {
-	background-color: lightpink;
 }
 .howtowork-wrapper {
 	display: flex;
@@ -435,6 +433,8 @@ body {
 	font-weight: 400;
 	font-size: 1.56rem;
 	color: #fff;
+	font-family: var(--font-family);
+	font-weight: 400;
 }
 
 .requisites-img {

@@ -24,6 +24,11 @@
 	.about-label {
 		margin: 50px 0 28px 0;
 	}
+
+	.about-text {
+		line-height: 156%;
+	}
+
 	/* about */
 
 	/* clients */
@@ -76,7 +81,7 @@
 		margin: 0;
 	}
 	.hero {
-		padding-top: 53px;
+		padding-top: 33px;
 	}
 	.hero-image {
 		margin-bottom: 37px;
@@ -99,8 +104,8 @@
 		margin: 0 20px 0 20px;
 	}
 	.hero-title-sub {
-		padding-top: 75px;
-		margin: 0 20px 61px 20px;
+		padding-top: 55px;
+		margin: 0 20px 51px 20px;
 	}
 	.hero-text {
 		text-align: center;
@@ -142,6 +147,8 @@
 		display: inline-block;
 		padding-bottom: 20px;
 		text-align: center;
+		font-family: var(--font-family);
+		font-weight: 400;
 	}
 	.grid-desc {
 		font-size: 1.5rem;
@@ -251,9 +258,29 @@
 	.howtowork-number {
 		font-size: 6rem;
 	}
+
+	/* footer */
+	.requisites {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 25px 0 0 0;
+	}
+	.requisites p {
+		font-size: 1.3rem;
+	}
+	/* footer */
 }
 
 @media (max-width: 670px) {
+	.hero-image img {
+		max-width: 80%;
+		width: 80%;
+		height: auto;
+		min-width: 320px;
+		flex: 1;
+	}
 	/* about */
 	.about-label {
 		font-size: 1.3rem;
@@ -312,15 +339,7 @@
 	.howtowork-number {
 		font-size: 6rem;
 	}
-	/* footer */
-	.requisites {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin: 25px 0 0 0;
-	}
-	/* footer */
+
 	.howtowork-label-wrap {
 		margin-bottom: 85px;
 	}

@@ -50,6 +50,10 @@
 		margin: 50px 0 28px 0;
 	}
 	/* clients */
+
+	.howtowork-wrapper {
+		margin-left: 0 20px 0 20px;
+	}
 }
 @media (max-width: 1270px) {
 	/* header */
@@ -110,11 +114,44 @@
 	.hero-scroll {
 		display: none;
 	}
+
+	.howtowork-label {
+		font-size: 3rem;
+		max-width: 750px;
+	}
 	/* hero */
 
 	/* about */
 
 	/* about */
+
+	.grid-container {
+		height: auto;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/* justify-content: center; */
+	}
+
+	.grid-item {
+		width: auto;
+		margin: 5px;
+		display: flex;
+		/* margin: 0 auto; */
+	}
+	.mobile {
+		display: inline-block;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.grid-desc {
+		font-size: 1.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.howtowork-number {
+		font-size: 7rem;
+	}
 }
 
 @media (max-width: 1095px) {
@@ -185,6 +222,10 @@
 		font-size: 1.3rem;
 		margin-bottom: 7px;
 	}
+	.howtowork-label {
+		font-size: 2.7rem;
+		max-width: 750px;
+	}
 }
 
 @media (max-width: 860px) {
@@ -201,6 +242,15 @@
 	}
 
 	/* about */
+
+	.howtowork-label {
+		font-size: 2rem;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.howtowork-number {
+		font-size: 6rem;
+	}
 }
 
 @media (max-width: 670px) {
@@ -250,6 +300,18 @@
 	}
 	/* clients */
 
+	.howtowork-label {
+		font-size: 1.4rem;
+		max-width: 350px;
+		margin: 0 auto;
+		height: 60px;
+	}
+	.howtowork-text {
+		font-size: 1.3rem;
+	}
+	.howtowork-number {
+		font-size: 6rem;
+	}
 	/* footer */
 	.requisites {
 		display: flex;
@@ -259,6 +321,12 @@
 		margin: 25px 0 0 0;
 	}
 	/* footer */
+	.howtowork-label-wrap {
+		margin-bottom: 85px;
+	}
+	.grid-container {
+		margin-bottom: 91px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -302,6 +370,16 @@
 	/* clients */
 
 	/* clients */
+
+	.howtowork-text {
+		font-size: 1rem;
+	}
+	.howtowork-number {
+		font-size: 4rem;
+	}
+	.grid-desc {
+		font-size: 1.3rem;
+	}
 }
 
 @media (max-width: 470px) {
@@ -330,4 +408,12 @@
 	}
 
 	/* about */
+
+	.howtowork-label {
+		font-size: 1rem;
+		max-width: 300px;
+	}
+	.howtowork-wrapper {
+		margin: 0 20px 0 20px;
+	}
 }

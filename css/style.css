@@ -118,10 +118,6 @@ body {
 	margin-top: 82px;
 	padding-top: 163px;
 	margin-bottom: 68px;
-<<<<<<< HEAD
-=======
-	/* background-color: lightpink; */
->>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 }
 
 .hero-wrapper {
@@ -129,10 +125,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-right: 55px;
-<<<<<<< HEAD
+
 	margin: 0 55px 0 55px;
-=======
->>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 }
 
 .hero-title {
@@ -193,7 +187,6 @@ body {
 	font-size: 2rem;
 	color: #fff;
 	text-decoration: none;
-<<<<<<< HEAD
 }
 
 .hero-scroll {
@@ -202,8 +195,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-=======
->>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 }
 
 .hero-scroll-down {
@@ -214,11 +205,8 @@ body {
 
 /* hero */
 
-<<<<<<< HEAD
 /* about */
 
-=======
->>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 .about {
 	/* background-color: lightpink; */
 }
@@ -383,30 +371,43 @@ body {
 }
 
 .grid-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr; /* Два столбца */
-	grid-template-rows: auto auto auto; /* Три строки */
-	gap: 10px;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 30px;
+	height: 540px;
+	margin-bottom: 197px;
 }
 
 .grid-item {
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	padding: 10px;
 	width: 90%;
 	word-wrap: break-word;
+	width: calc(50% - 20px);
+
+	margin: 5px;
+}
+.mobile {
+	display: none;
 }
 
 .grid-button a {
-	width: 40vw;
+	text-align: center;
+}
+.grid-button {
+	width: 550px;
 }
 
 .howtowork-number {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
 	font-family: var(--font-family);
 	font-weight: 500;
-	width: 145px;
-	font-size: 150px;
+	font-size: 9.3rem;
 	text-align: center;
 	color: #058;
 	padding-right: 48px;

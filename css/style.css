@@ -118,6 +118,10 @@ body {
 	margin-top: 82px;
 	padding-top: 163px;
 	margin-bottom: 68px;
+<<<<<<< HEAD
+=======
+	/* background-color: lightpink; */
+>>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 }
 
 .hero-wrapper {
@@ -125,7 +129,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-right: 55px;
+<<<<<<< HEAD
 	margin: 0 55px 0 55px;
+=======
+>>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 }
 
 .hero-title {
@@ -186,6 +193,7 @@ body {
 	font-size: 2rem;
 	color: #fff;
 	text-decoration: none;
+<<<<<<< HEAD
 }
 
 .hero-scroll {
@@ -194,6 +202,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+=======
+>>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 }
 
 .hero-scroll-down {
@@ -204,8 +214,11 @@ body {
 
 /* hero */
 
+<<<<<<< HEAD
 /* about */
 
+=======
+>>>>>>> 3a5b0dbdac8344fa810c1c415498bcaf01c372cb
 .about {
 	/* background-color: lightpink; */
 }
